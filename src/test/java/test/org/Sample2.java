@@ -51,6 +51,12 @@ public class Sample2 {
 				
 			}
 			
+			int physicalNumberOfRows1 = sheet.getPhysicalNumberOfRows();
+			for (int k = 0; k <physicalNumberOfRows1; k++) {
+				
+				Row row1 = sheet.getRow(k);
+				
+			
 		}
 		
 			
